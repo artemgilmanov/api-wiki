@@ -28,5 +28,7 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
 - Tools
   - [Beeceptor](docs/tools/beeceptor.md)
   - [Postman](docs/tools/postman.md)
-- [Best Practices](docs/best-practices.md)
-- [Resources](docs/resources.md)
+- Best Practices
+  - [Best Practices](docs/best-practices.md)
+- Best Practices
+  - [Resources](docs/resources.md)
