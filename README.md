@@ -32,3 +32,6 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
   - [Best Practices](docs/best-practices.md)
 - Best Practices
   - [Resources](docs/resources.md)
+- HTTP Verbs
+  - [Get](docs/httpverbs/get.md)
+  - [POST](docs/httpverbs/post.md)
