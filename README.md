@@ -35,6 +35,6 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
 - HTTP Verbs
   - [GET](docs/httpverbs/get.md)
   - [POST](docs/httpverbs/post.md)
-  - [PUT](docs/httpverbs/get.md)
-  - [DELETE](docs/httpverbs/post.md)
+  - [PUT](docs/httpverbs/put.md)
+  - [DELETE](docs/httpverbs/delete.md)
 
