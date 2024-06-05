@@ -37,4 +37,5 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
   - [POST](docs/httpverbs/post.md)
   - [PUT](docs/httpverbs/put.md)
   - [DELETE](docs/httpverbs/delete.md)
+  - [Rarely used](docs/httpverbs/rarelyused.md)
 
