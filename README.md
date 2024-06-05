@@ -38,4 +38,5 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
   - [PUT](docs/httpverbs/put.md)
   - [DELETE](docs/httpverbs/delete.md)
   - [Rarely used](docs/httpverbs/rarelyused.md)
-
+- URL Structure
+   - [Structure](docs/url/structure.md)
