@@ -40,3 +40,5 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
   - [Rarely used](docs/httpverbs/rarelyused.md)
 - URL Structure
    - [Structure](docs/url/structure.md)
+- Response Code
+   - [Responce codes](docs/responce/codes.md)
