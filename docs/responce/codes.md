@@ -2,9 +2,9 @@
 Structure of REST API Response
 Response Codes
 - Notify clients about the staus of the request
-- - Did it succeed?
-- - Did it fail?
-- - What kind of error?
+  - Did it succeed?
+  - Did it fail?
+  - What kind of error?
 
 Importance of Response Codes
 - Most clients check for response code and act accordingly
