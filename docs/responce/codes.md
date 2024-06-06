@@ -2,9 +2,9 @@
 Structure of REST API Response
 Response Codes
 - Notify clients about the staus of the request
--- Did it succeed?
--- Did it fail?
--- What kind of error?
+- - Did it succeed?
+- - Did it fail?
+- - What kind of error?
 
 Importance of Response Codes
 - Most clients check for response code and act accordingly
@@ -33,23 +33,23 @@ Groups
 201-Created
 - The request has been fulfilled, a new entity has been created
 - Response might contain Location header pointing to the entity
--  The expected status code of POST request
+- The expected status code of POST request
 
 202-Accepted
 - The request has been accepted ans is pending processing
 -  Processing might not be complete
--   No nitification is given when processing completes
--     usally used for POST, PUT requests
+- No nitification is given when processing completes
+- Usally used for POST, PUT requests
 
 204-No Content
 - Request was fulfilled but no content was sent back
--  Schould NOT include body
--   Used mainly when updating large entity
+- Schould NOT include body
+- Used mainly when updating large entity
 
 The 204 No Content vs 200 OK dilemma
 - what schould be returned when a GET returns no entity?
--  200 with no body, or 204?
--   No agreed upon answer?
+- 200 with no body, or 204?
+- No agreed upon answer?
 
 4xx-Client Error
 - The client sent a bad request
