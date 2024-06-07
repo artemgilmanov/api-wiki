@@ -1,0 +1,14 @@
+- De-Facto standard for API Documentation
+- Description format for REST API
+- Formerly known as Swagger
+- Describes:
+  - Endpoints
+  - Parameters
+  - Authentication
+  - Information about the API
+- Can be used to:
+  - Provide documentation & test bed for developers
+  - Generate client libraries
+  - Generate the API (Design-First)
+- Can be automatically generaeted
+- Compatible with many API platforms
