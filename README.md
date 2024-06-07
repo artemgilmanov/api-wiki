@@ -42,3 +42,5 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
    - [Structure](docs/url/structure.md)
 - Response Code
    - [Responce codes](docs/responce/codes.md)
+- OpenAPI
+   - [OpenAPI](docs/open-api.md)
