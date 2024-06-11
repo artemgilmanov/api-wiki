@@ -46,3 +46,5 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
    - [OpenAPI](docs/open-api/open-api.md)
 - Versioning
    - [Versioning](docs/versioning/versioning.md)
+- Authentication and Authorization
+  - [Authentication and Authorization](docs/auth/auth.md) 
