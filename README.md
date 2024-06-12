@@ -47,4 +47,6 @@ Welcome to the API Documentation Wiki. This repository contains comprehensive no
 - Versioning
    - [Versioning](docs/versioning/versioning.md)
 - Authentication and Authorization
-  - [Authentication and Authorization](docs/auth/auth.md) 
+  - [Authentication and Authorization](docs/auth/auth.md)
+- Performance
+  - [Performance](docs/performance/performance.md) 
