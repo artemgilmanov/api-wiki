@@ -12,3 +12,10 @@ Request-Response Only
 	- Web Sockets
 - not part of the protocol
 - complex
+
+History of GraphQL
+
+Facebook developed GraphQL as a replacement of REST API for internal use
+First used in 2012
+Specification was opened sourced in 2015
+Currently managed by the GraphQL Foundation
