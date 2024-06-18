@@ -1,4 +1,4 @@
-Problems with REST
+### Problems with REST
 Fixed Entity structure
 - the client cannot specify the entity parts it want to retrieve
 - the entity returned is set by the backend developer and cannot be modified on a per-query basis
@@ -13,7 +13,7 @@ Request-Response Only
 - not part of the protocol
 - complex
 
-History of GraphQL
+### History of GraphQL
 
 Facebook developed GraphQL as a replacement of REST API for internal use
 First used in 2012
