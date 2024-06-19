@@ -19,3 +19,27 @@ Facebook developed GraphQL as a replacement of REST API for internal use
 First used in 2012
 Specification was opened sourced in 2015
 Currently managed by the GraphQL Foundation
+
+### GraphQL Basics
+a specification
+-  defines the semantic and components of a GraphQL API
+- does not provide concrete implementations
+- other parties develop implementations in many languages
+- full specs can be found here: https://github.com/graphql/graphql-spec
+defines structure of data returned
+- can specify the part(s) of entity to return
+- can specify related entities to be returned
+- can specify filtering in the query
+JSON-based
+- extensive usage of JSON
+- query send to server in JSON
+- data is returned in JSON
+- Technically can be used with other protocols, nobody does this
+three types of operations
+- Retrieve data
+- Write/Change Data
+- Subscribe to changes in data
+Schema-based
+- defines the entities, fields and attributes
+- operations build on the schema
+Cross-platform
