@@ -1,4 +1,5 @@
 ### Basics
+Query an object.
 Query:
 ```graphql
 {books}
