@@ -28,3 +28,45 @@ Responce:
 }
 ```
 Does not query ab object.
+```graphql
+{
+  books {
+    bookId
+    name
+    genre
+    pages
+  }
+}
+```
+```graphql
+{
+  "data": {
+    "books": [
+      {
+        "bookId": 17,
+        "name": "Harry Potter",
+        "genre": "FANTASY",
+        "pages": 267
+      },
+      {
+        "bookId": 54,
+        "name": "Memory Man",
+        "genre": "HORROR",
+        "pages": 560
+      },
+      {
+        "bookId": 66,
+        "name": "Exhalation",
+        "genre": "HORROR",
+        "pages": 368
+      },
+      {
+        "bookId": 91,
+        "name": "SomeName",
+        "genre": "HORROR",
+        "pages": 333
+      }
+    ]
+  }
+}
+```
