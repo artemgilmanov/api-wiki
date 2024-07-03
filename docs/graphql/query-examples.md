@@ -70,3 +70,57 @@ Does not query ab object.
   }
 }
 ```
+Related entities
+```graphql
+{
+  books {
+    bookId
+    name
+    genre
+    pages
+    author {
+      authorId
+      name
+    }
+  }
+}
+```
+```graphql
+{
+  "data": {
+    "books": [
+      {
+        "bookId": 17,
+        "name": "Harry Potter",
+        "genre": "FANTASY",
+        "pages": 267,
+        "author": {
+          "authorId": 110,
+          "name": "J.K. Rowling"
+        }
+      },
+      {
+        "bookId": 54,
+        "name": "Memory Man",
+        "genre": "HORROR",
+        "pages": 560,
+        "author": null
+      },
+      {
+        "bookId": 66,
+        "name": "Exhalation",
+        "genre": "HORROR",
+        "pages": 368,
+        "author": null
+      },
+      {
+        "bookId": 91,
+        "name": "SomeName",
+        "genre": "HORROR",
+        "pages": 333,
+        "author": null
+      }
+    ]
+  }
+}
+```
