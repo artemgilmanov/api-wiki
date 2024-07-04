@@ -124,3 +124,33 @@ Related entities
   }
 }
 ```
+operation type
+```graphql
+query {
+  books {
+    bookId
+    name
+    genre
+    pages
+    author {
+      authorId
+      name
+    }
+  }
+}
+```
+assign a name for a query
+```graphql
+query GetBooks {
+  books {
+    bookId
+    name
+    genre
+    pages
+    author {
+      authorId
+      name
+    }
+  }
+}
+```
