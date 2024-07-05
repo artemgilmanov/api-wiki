@@ -154,3 +154,23 @@ query GetBooks {
   }
 }
 ```
+variables help to specify the value separately from the query string
+```graphql
+query GetBooks ($bookName: String) {
+  books (nameContains: $bookName) {
+    bookId
+    name
+    genre
+    pages
+    author {
+      authorId
+      name
+    }
+  }
+}
+```
+```graphql
+{
+  "bookName":"H"
+}
+```
