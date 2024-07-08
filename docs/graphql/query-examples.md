@@ -174,3 +174,45 @@ query GetBooks ($bookName: String) {
   "bookName":"H"
 }
 ```
+With aliases, we give a unique name to each query in the request
+The result is named after the alias, and not after the object type
+```graphql
+query GetBooks  {
+  booksWithP:books (nameContains: "P") {
+    bookId
+    name
+    genre
+  }
+  booksWithm:books (nameContains: "m"){
+    bookId
+    name
+    genre
+  }
+}
+```
+```graphql
+{
+  "data": {
+    "booksWithP": [
+      {
+        "bookId": 17,
+        "name": "Harry Potter",
+        "genre": "FANTASY"
+      }
+    ],
+    "booksWithm": [
+      {
+        "bookId": 54,
+        "name": "Memory Man",
+        "genre": "HORROR"
+      },
+      {
+        "bookId": 91,
+        "name": "SomeName",
+        "genre": "HORROR"
+      }
+    ]
+  }
+}
+
+```
